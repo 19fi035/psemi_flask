@@ -1,0 +1,14 @@
+.hello{
+    background: blue;
+}
+
+h1 {
+    color: #000000;
+    border: solid 2px #dce89b;
+    border-radius: 1em;
+    padding: 01em;
+  }
+
+li{
+    color:green;
+}

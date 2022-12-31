@@ -1,0 +1,18 @@
+<body>
+    <p>{{str}}</p>
+    <hr>
+    <ul>
+    {% for x in list %} <!--リスト表示-->
+        <li>{{x}}</li>
+    {% endfor %}
+        </ul>
+    <hr>
+    <p>{{“name: %s age: %s” % (dictionary[“name”],dictionary[“age”]) }}<p> <!--辞書表
+    示-->
+    <hr>
+    {%if flag%} <!--値の真偽による表示-->
+        <p>True</p>
+    {% else %}
+        <p>False</p>
+    {% endif %}
+    </body

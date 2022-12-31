@@ -1,0 +1,23 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="ja">
+     <head>
+          <meta charset="UTF-8">
+          <link rel=”stylesheet” href=”/static/css/style.css”> #追加
+                  <title>Hello World</title>
+
+        </head>
+        <body>
+                   <h1>Hello from index.html</h1>
+                   <p class=”hello”>19FI035_加藤大雅</p>
+                   <p>情報セキュリティ研究室所属</p>
+                   <hr>
+                   <ul>
+                     {% for i in list %}
+                    <li> {{list[i-1]}}</li>
+                    {% endfor %}
+                </ul>
+                <hr>
+                <p>{{"好きな食べ物: %s 好きなこと: %s" % (dictionary["food"],dictionary["things"],)}}</p>
+         </body>
+</html>
